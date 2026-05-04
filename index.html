@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison Verde | Modern Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Maison Verde home">
+        <span class="brand-mark">MV</span>
+        <span>Maison Verde</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+      <div class="nav-links">
+        <a href="#menu">Menu</a>
+        <a href="#experience">Experience</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reservation">Reservations</a>
+      </div>
+      <a class="nav-action" href="#reservation">
+        <i data-lucide="calendar-check"></i>
+        <span>Book</span>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Maison Verde restaurant">
+      <div class="hero-media" role="img" aria-label="Elegant restaurant table with plated food"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Seasonal dining in the heart of the city</p>
+        <h1>Maison Verde</h1>
+        <p class="hero-copy">Fire-kissed plates, garden-bright cocktails, and a dining room made for lingering.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#reservation">
+            <i data-lucide="calendar-plus"></i>
+            <span>Reserve a Table</span>
+          </a>
+          <a class="button button-secondary" href="#menu">
+            <i data-lucide="utensils"></i>
+            <span>View Menu</span>
+          </a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Restaurant details">
+        <div>
+          <span>Open Tonight</span>
+          <strong>5 PM - 11 PM</strong>
+        </div>
+        <div>
+          <span>Chef's Tasting</span>
+          <strong>6 courses</strong>
+        </div>
+        <div>
+          <span>Location</span>
+          <strong>Old Town District</strong>
+        </div>
+      </aside>
+    </section>
+
+    <section class="intro section">
+      <div class="section-heading">
+        <p class="eyebrow">Welcome</p>
+        <h2>A relaxed room for memorable nights.</h2>
+      </div>
+      <p>Maison Verde blends modern European cooking with open-fire technique, local produce, and a polished but easy-going service style.</p>
+    </section>
+
+    <section class="feature-band" id="experience">
+      <div class="feature-image" role="img" aria-label="Chef plating a fine dining dish"></div>
+      <div class="feature-copy">
+        <p class="eyebrow">The Experience</p>
+        <h2>Sharp flavors, soft light, no rush.</h2>
+        <p>From weekday dinners to anniversary tables, the dining room is built around warm lighting, natural textures, and a menu that changes with the market.</p>
+        <div class="stats">
+          <div><strong>28</strong><span>seasonal wines</span></div>
+          <div><strong>14</strong><span>signature plates</span></div>
+          <div><strong>4.9</strong><span>guest rating</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu section" id="menu">
+      <div class="section-heading centered">
+        <p class="eyebrow">Menu</p>
+        <h2>House favorites</h2>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80" alt="Colorful seasonal salad">
+          <div>
+            <p class="menu-type">Starter</p>
+            <h3>Garden Burrata</h3>
+            <p>Heirloom tomatoes, basil oil, toasted seeds, aged balsamic.</p>
+            <span>$16</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80" alt="Grilled steak with herbs">
+          <div>
+            <p class="menu-type">Main</p>
+            <h3>Ember Ribeye</h3>
+            <p>Charred ribeye, smoked marrow butter, crispy potatoes.</p>
+            <span>$38</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=80" alt="Fresh pasta with herbs">
+          <div>
+            <p class="menu-type">Pasta</p>
+            <h3>Lemon Tagliatelle</h3>
+            <p>Hand-cut pasta, preserved lemon, pecorino, black pepper.</p>
+            <span>$24</span>
+          </div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=900&q=80" alt="Elegant dessert with cream and berries">
+          <div>
+            <p class="menu-type">Dessert</p>
+            <h3>Vanilla Pavlova</h3>
+            <p>Whipped mascarpone, citrus curd, berries, mint sugar.</p>
+            <span>$12</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="reservation-wrap" id="reservation">
+      <div class="reservation-copy">
+        <p class="eyebrow">Reservations</p>
+        <h2>Your table is waiting.</h2>
+        <p>Book dinner, birthdays, business meals, or a quiet corner for two. For parties over eight, leave a note and our host will follow up.</p>
+        <div class="contact-list">
+          <span><i data-lucide="phone"></i> +48 555 013 908</span>
+          <span><i data-lucide="map-pin"></i> 18 Market Lane, Warsaw</span>
+          <span><i data-lucide="clock"></i> Tue-Sun, 5 PM - 11 PM</span>
+        </div>
+      </div>
+
+      <form class="reservation-form" id="bookingForm">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-row split">
+          <div>
+            <label for="date">Date</label>
+            <input id="date" name="date" type="date" required>
+          </div>
+          <div>
+            <label for="time">Time</label>
+            <select id="time" name="time" required>
+              <option value="">Select</option>
+              <option>17:00</option>
+              <option>17:30</option>
+              <option>18:00</option>
+              <option>18:30</option>
+              <option>19:00</option>
+              <option>19:30</option>
+              <option>20:00</option>
+              <option>20:30</option>
+              <option>21:00</option>
+              <option>21:30</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row split">
+          <div>
+            <label for="guests">Guests</label>
+            <input id="guests" name="guests" type="number" min="1" max="12" value="2" required>
+          </div>
+          <div>
+            <label for="occasion">Occasion</label>
+            <select id="occasion" name="occasion">
+              <option>Dinner</option>
+              <option>Birthday</option>
+              <option>Anniversary</option>
+              <option>Business meal</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="notes">Notes</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="Allergies, seating, or special requests"></textarea>
+        </div>
+        <button class="button button-primary full" type="submit">
+          <i data-lucide="check-circle"></i>
+          <span>Confirm Reservation</span>
+        </button>
+        <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="gallery section" id="gallery" aria-label="Restaurant gallery">
+      <div class="section-heading centered">
+        <p class="eyebrow">Gallery</p>
+        <h2>Inside Maison Verde</h2>
+      </div>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Warm restaurant interior">
+        <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1000&q=80" alt="Restaurant table setting">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1000&q=80" alt="Guests dining in a restaurant">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#top" aria-label="Maison Verde home">
+      <span class="brand-mark">MV</span>
+      <span>Maison Verde</span>
+    </a>
+    <p>Modern seasonal restaurant in Warsaw.</p>
+    <div class="socials" aria-label="Social links">
+      <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+      <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+      <a href="#" aria-label="Mail"><i data-lucide="mail"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
